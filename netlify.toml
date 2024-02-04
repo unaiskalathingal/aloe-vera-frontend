@@ -4,7 +4,7 @@
 [build]
   command = "CI= npm run build"
   publish = "build"
-     
+  functions = "functions"  # Specify the Netlify Functions directory
 
 # Redirects for client-side routing
 [[redirects]]

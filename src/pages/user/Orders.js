@@ -33,7 +33,7 @@ const Orders = () => {
           <UserMenu />
         </div>
         <div className="col-md-9">
-          <div className="border shadow">
+          <div className="table-responsive">
             <table className="table">
               <thead>
                 <tr>

@@ -1,0 +1,12 @@
+# netlify.toml
+
+# Build settings
+[build]
+  command = "npm run build" 
+  publish = "build"          
+
+# Redirects for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 20

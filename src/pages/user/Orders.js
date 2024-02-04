@@ -72,7 +72,7 @@ const Orders = () => {
                     <td>
                       {order.products.map((product, productIndex) => (
                         <div key={productIndex}>
-                          <h5>₹ {product.price}/-</h5>
+                          <h5>₹ {product.price}</h5>
                         </div>
                       ))}
                     </td>
